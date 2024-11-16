@@ -1,0 +1,214 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="{% static 'stylesheet6.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo"><img src="{% static 'logo.png' %}"></a>
+
+        <div class="nav-icon">
+            <a href="{% url 'home' %}"><i class="fa fa-fw fa-home"></i></a>
+            <a href="{% url 'comment' %}"><i class='far fa-comment-alt'></i></a>
+            <a href="{% url 'cart' %}"><i class="fas fa-shopping-cart"></i></a>
+            <a href="{% url 'bell' %}"><i class='far fa-bell'></i></a>
+            <a href="{% url 'user' %}"><i class='fas fa-user-tie'></i></a>
+        </div>
+    </header>
+
+    <section class="main">
+        <div class="boxx">
+            <div class="picc">
+                <img src="{% static 'Rectangle 19.png' %}" height="200" width="200">
+            </div>
+            <div class="boxx1">
+                <div class="intro3">
+                    <h3 class="clothdes">Ev car charger <span class="dam"> </span> </h3><br>
+                    <div class="distance1">
+                        <label class="container">
+                            <input checked="checked" type="checkbox">
+                            <div class="checkmark">
+                                <svg viewBox="0 0 256 256">
+                                    <rect fill="none" height="256" width="256"></rect>
+                                    <path
+                                        d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
+                                        stroke-width="20px" stroke="#FFF" fill="none"></path>
+                                </svg>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                <div class="para5">
+                    <h6><span class="fas fa-map-marker-alt"> </span> vanasthali, Banasthali, Kathmandu</h6><br>
+                    <p>Ev car charger ground, earthing earthing errors.</p>
+                </div>
+                <div class="decide1">
+                    <span>RS.200|<a href="#"> Like new</a></span>
+                    <div class="btn3">
+                        <a href="{% url 'place_order' %}"><button id="payment" class="cart">Place order</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="boxx">
+            <div class="picc">
+                <img src="{% static 'Rectangle 20.png' %}" height="200" width="200">
+            </div>
+            <div class="boxx1">
+                <div class="intro3">
+                    <h3 class="clothdes">Cross Fire GR7 Crank Assembly</h3><br>
+                    <div class="distance1">
+                        <label class="container">
+                            <input checked="checked" type="checkbox">
+                            <div class="checkmark">
+                                <svg viewBox="0 0 256 256">
+                                    <rect fill="none" height="256" width="256"></rect>
+                                    <path
+                                        d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
+                                        stroke-width="20px" stroke="#FFF" fill="none"></path>
+                                </svg>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                <div class="para5">
+                    <h6><span class="fas fa-map-marker-alt"> </span> 551 a Baker Street, Lalitpur</h6><br>
+                    <p>cf gr7 crank assy De Blaze.</p>
+                </div>
+                <div class="decide1">
+                    <span>RS.11,000|<a href="#"> Brand new</a></span>
+                    <div class="btn3">
+                        <a href="{% url 'place_order' %}"><button id="payment" class="cart">Place order</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="boxx">
+            <div class="picc">
+                <img src="{% static 'Rectangle1 20.png' %}" height="200" width="200">
+            </div>
+            <div class="boxx1">
+                <div class="intro3">
+                    <h3 class="clothdes">Hartford Vr 150 Gear Assembly</h3><br>
+                    <div class="distance1">
+                        <label class="container">
+                            <input checked="checked" type="checkbox">
+                            <div class="checkmark">
+                                <svg viewBox="0 0 256 256">
+                                    <rect fill="none" height="256" width="256"></rect>
+                                    <path
+                                        d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
+                                        stroke-width="20px" stroke="#FFF" fill="none"></path>
+                                </svg>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                <div class="para5">
+                    <h6><span class="fas fa-map-marker-alt"> </span> Alliant Insurance Brokrers, 303, थापाथली </h6>
+                    <p>Hartford Vr 150 gear assembly De Blaze.</p>
+                </div>
+                <div class="decide1">
+                    <span>RS.7,500|<a href="#"> Brand new</a></span>
+                    <div class="btn3">
+                        <a href="{% url 'place_order' %}"><button id="payment" class="cart">Place order</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="boxx">
+            <div class="picc">
+                <img src="{% static 'Rectangle 39.png' %}" height="200" width="200">
+            </div>
+            <div class="boxx1">
+                <div class="intro3">
+                    <h3 class="clothdes">Yoshimura Rs4 Full System On Sale</h3><br>
+                    <div class="distance1">
+                        <label class="container">
+                            <input checked="checked" type="checkbox">
+                            <div class="checkmark">
+                                <svg viewBox="0 0 256 256">
+                                    <rect fill="none" height="256" width="256"></rect>
+                                    <path
+                                        d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
+                                        stroke-width="20px" stroke="#FFF" fill="none"></path>
+                                </svg>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                <div class="para5">
+                    <h6><span class="fas fa-map-marker-alt"> </span> Bhaktapur Municipality, Bhaktapur</h6><br>
+                    <p>Yoshimura Rs4 full system on sale, only few pieces available in the market. asw...</p>
+                </div>
+                <div class="decide1">
+                    <span>RS.1,10,000|<a href="#"> Brand new</a></span>
+                    <div class="btn3">
+                        <a href="{% url 'place_order' %}"><button id="payment" class="cart">Place order</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer">
+        <div class="row1">
+            <div class="column1">
+                <div class="card6">
+                    <h3>WE'RE</h3>
+                    <img src="{% static 'logo.png' %}" alt="">
+                </div>
+            </div>
+
+            <div class="column1">
+                <div class="card6">
+                    <p>GET HELP</p>
+                    <p>Support</p>
+                    <p>FAQs</p>
+                    <p>Contact Us</p>
+                </div>
+            </div>
+
+            <div class="column1">
+                <div class="card6">
+                    <p>CALL US</p>
+                    <p>4444177, 444097887, 984022873</p>
+                    <p>MAIL Us</p>
+                    <p>veloaid@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="column1">
+                <div class="card6">
+                    <h3>Connect with us</h3>
+                    <div class="nav-coni">
+                        <a href=""><i class="fab fa-facebook-f"></i> </a>
+                        <a href=""><i class="fab fa-instagram"></i> </a>
+                        <a href=""><i class="fab fa-twitter"></i> </a>
+                    </div>
+                </div>
+            </div>
+            <div class="column1">
+                <div class="card6">
+                    <div class="nav">
+                        <i style='font-size:80px' class='fas'>&#xf029;</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

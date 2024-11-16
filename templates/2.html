@@ -1,0 +1,216 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="{% static 'stylesheet1.css' %}">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<header>
+  <a href="#" class="logo"><img src="{% static 'logo.png' %}" alt="Logo"></a>
+  <div class="nav-icon">
+    <a href="{% url 'home' %}"><i class="fa fa-fw fa-home"></i></a>
+    <a href="{% url 'comments' %}"><i class='far fa-comment-alt'></i></a>
+    <a href="{% url 'cart' %}"><i class="fas fa-shopping-cart"></i></a>
+    <a href="{% url 'notifications' %}"><i class='far fa-bell'></i></a>
+    <a href="{% url 'profile' %}"><i class='fas fa-user-tie'></i></a>
+  </div>
+</header>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h2>Service center</h2>
+      <div class="boxx">
+        <div class="picc">
+          <img src="{% static '8efdbed82588ed8f874d8e056be39850.jpg' %}" height="200" width="200">
+        </div>
+        <div class="boxx1">
+          <div class="intro3">
+            <h2 class="clothdes">TVS SERVICE CENTER (SS AUTO CARE)</h2><br>
+            <div class="rating">
+              <input value="5" name="rate" id="star5" type="radio">
+              <label title="text" for="star5"></label>
+      <label title="text" for="star5"></label>
+      <label title="text" for="star5"></label>
+      <label title="text" for="star5"></label>
+      <label title="text" for="star5"></label>
+            </div>
+          </div>
+          <div class="para5">
+            <span class="fas fa-map-marker-alt"></span> Rio road, Lalitpur-11<br>
+            <div class="qw">
+              <span>closed</span>: opens at 8 am
+            </div>
+          </div>
+          <div class="decide1">
+            <div class="btn3">
+              <a href="{% url 'details' %}"> <button id="redirect" class="cart"><i class="bx bx-cart"></i>Details</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="boxx">
+    <div class="picc">
+      <img src="{% static '8efdbed82588ed8f874d8e056be39850.jpg' %}" height="200" width="200">
+    </div>
+  <div class="boxx1">
+    <div class="intro3">
+      <h2 class="clothdes">TVS SERVICE CENTER (SS AUTO CARE)</h2><br>
+      <div class="rating">
+        <input value="5" name="rate" id="star5" type="radio">
+        <label title="text" for="star5"></label>
+      <label title="text" for="star5"></label>
+      <label title="text" for="star5"></label>
+      <label title="text" for="star5"></label>
+      <label title="text" for="star5"></label>
+        <!-- Add other rating inputs as needed -->
+      </div>
+    </div>
+    <div class="para5">
+      <span class="fas fa-map-marker-alt"></span> Rio road, Lalitpur-11<br>
+      <div class="qw">
+        <span>closed</span>: opens at 8 am
+      </div>
+    </div>
+    <div class="decide1">
+      <div class="btn3">
+        <a href="{% url 'details' %}"> <button id="redirect" class="cart"><i class="bx bx-cart"></i>Details</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+<div class="boxx">
+  <div class="picc">
+    <img src="{% static '8efdbed82588ed8f874d8e056be39850.jpg' %}" height="200" width="200">
+  </div>
+<div class="boxx1">
+  <div class="intro3">
+    <h2 class="clothdes">TVS SERVICE CENTER (SS AUTO CARE)</h2><br>
+    <div class="rating">
+      <input value="5" name="rate" id="star5" type="radio">
+      <label title="text" for="star5"></label>
+      <label title="text" for="star5"></label>
+      <label title="text" for="star5"></label>
+      <label title="text" for="star5"></label>
+      <label title="text" for="star5"></label>
+      <!-- Add other rating inputs as needed -->
+    </div>
+  </div>
+  <div class="para5">
+    <span class="fas fa-map-marker-alt"></span> Rio road, Lalitpur-11<br>
+    <div class="qw">
+      <span>closed</span>: opens at 8 am
+    </div>
+  </div>
+  <div class="decide1">
+    <div class="btn3">
+      <a href="{% url 'details' %}"> <button id="redirect" class="cart"><i class="bx bx-cart"></i>Details</button></a>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="boxx">
+  <div class="picc">
+    <img src="{% static '8efdbed82588ed8f874d8e056be39850.jpg' %}" height="200" width="200">
+  </div>
+<div class="boxx1">
+  <div class="intro3">
+    <h2 class="clothdes">TVS SERVICE CENTER (SS AUTO CARE)</h2><br>
+    <div class="rating">
+      <input value="5" name="rate" id="star5" type="radio">
+      <label title="text" for="star5"></label>
+      <label title="text" for="star5"></label>
+      <label title="text" for="star5"></label>
+      <label title="text" for="star5"></label>
+      <label title="text" for="star5"></label>
+      <!-- Add other rating inputs as needed -->
+    </div>
+  </div>
+  <div class="para5">
+    <span class="fas fa-map-marker-alt"></span> Rio road, Lalitpur-11<br>
+    <div class="qw">
+      <span>closed</span>: opens at 8 am
+    </div>
+  </div>
+  <div class="decide1">
+    <div class="btn3">
+      <a href="{% url 'details' %}"> <button id="redirect" class="cart"><i class="bx bx-cart"></i>Details</button></a>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+  <!-- Repeat similar structure for other boxes as needed -->
+</div>
+
+<footer>
+  <div class="footer">
+    <div class="row1">
+      <div class="column1">
+        <div class="card6">
+          <h3>WE'RE</h3>
+          <img src="{% static 'logo.png' %}" alt="Logo">
+        </div>
+      </div>
+      <div class="column1">
+        <div class="card6">
+          <p>GET HELP</p>
+          <p>Support</p>
+          <p>FAQs</p>
+          <p>Contact Us</p>
+        </div>
+      </div>
+      <div class="column1">
+        <div class="card6">
+          <p>CALL US</p>
+          <p>4444177, 444097887, 984022873</p>
+          <p>MAIL Us</p>
+          <p>veloaid@gmail.com</p>
+        </div>
+      </div>
+      <div class="column1">
+        <div class="card6">
+          <h3>Connect with us</h3>
+          <div class="nav-coni">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="column1">
+        <div class="card6">
+          <div class="nav">
+            <i style='font-size:80px' class='fas'>&#xf029;</i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

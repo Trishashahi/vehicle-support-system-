@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+  
+   
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 60px;
+    padding-left:40px;
+    gap: 50px;
+    background-color: rgb(20 162 146);
+}
+
+.navbar{
+    display: flex;
+    gap: 20px;
+}
+.navbar a{
+    color:344654;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    color: #615047;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    transition: all .42s ease;
+}
+.navbar a:hover{
+    color:rgb(147, 206, 196) ;
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.nav-icon i{
+    margin-right: 20px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    transition: all .42s ease;
+}
+.nav-icon i:hover{
+    color: #DCF2F0 ;
+    transform: scale(1.1);
+}
+   
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #00b09b;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+  }
+  .container .skill-bar{
+
+    height: 2px;
+    width: 100%;
+    border-radius: 2px;
+    background-color: #d9d9d9;
+    margin: 10px;
+  }
+  .skill-bar .skill-per{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 2px;
+    background: #0fa497;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .rating {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  .rating i {
+    color: #ffc107;
+    font-size: 16px;
+  }
+  
+  .info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .info i {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #00b09b;
+  }
+   .info a {
+    color: #00b09b;
+   }
+  .services {
+    margin-bottom: 20px;
+  }
+  
+  .services ul {
+    list-style: none;
+    padding: 20px;
+justify-content: space-between;
+  }
+  
+  .services li {
+    margin-bottom: 5px;
+  }
+  
+  .reviews {
+    margin-bottom: 20px;
+  }
+  
+  .review {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .review .author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .review .author img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .review .text {
+    margin-bottom: 5px;
+  }
+  
+  .review .rating {
+    margin-bottom: 0;
+  }
+  
+.footer {
+ 
+    background-color: rgb(20 162 146);
+  }
+  
+  .column1 {
+    float: left;
+    width: 20%;
+    padding: 0 0px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row1 {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column1 {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card6 {
+   color: #faf8f8;
+    padding: 16px;
+    text-align: center;
+    background-color: #0fa497;
+  }
+  
+  
+   
+  
+  .nav-coni {
+    display: flex;
+    align-items: center;
+  
+  }
+  .nav-coni i{
+    padding-left: 50px;
+  gap: 30px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    transition: all .42s ease;
+  }
+  
+  .nav i{
+  margin-top: 10px;
+  }

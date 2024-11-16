@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+  
+   
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 60px;
+    padding-left:40px;
+    gap: 50px;
+    background-color: rgb(20 162 146);
+}
+
+.navbar{
+    display: flex;
+    gap: 20px;
+}
+.navbar a{
+    color:344654;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    color: #615047;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    transition: all .42s ease;
+}
+.navbar a:hover{
+    color:rgb(147, 206, 196) ;
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.nav-icon i{
+    margin-right: 20px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    transition: all .42s ease;
+}
+.nav-icon i:hover{
+    color: #DCF2F0 ;
+    transform: scale(1.1);
+}
+  
+  
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+        background-color: rgb(20 162 146);;
+      float: none;
+      display: block;
+    }
+  }
+ 
+  * {
+    box-sizing: border-box;
+  }
+ body {
+  background-color: #fbffff;
+ }
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 100%;
+ 
+    padding: 0 20px;
+    
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row 
+  {margin: 5px;
+padding-top: 150px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  
+  
+  
+  section.main {
+    margin-top: 150px;
+  }
+  
+  .boxx1{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .boxx{
+    display: flex;
+    padding: 20px;
+    padding-left: 60px;
+    border-bottom: 2px solid #0fa497;
+  }
+  .intro3{
+    
+    display: flex;
+    width: 900px;
+    text-align: justify;
+    color: #313232;
+  }
+
+ span.dam {
+    margin-left: 150px;
+
+  }
+  .distance1{
+    margin-left: 620px;
+    font-size: 10px;
+  }
+  .para5{
+    color:#313232;
+    padding: 10px;
+    text-align: justify;
+    width: 920px;
+    line-height: 1.4;
+ 
+  }
+.para5 p {
+  padding-top: 4px;
+}
+  .para5 span {
+    color: #0fa497;
+ 
+  }
+  
+  .decide1{
+    display: flex;
+  padding-left: 10px;
+    gap: 400px;
+  
+  }
+  .decide1 a {
+    color: #a4a4a4;
+   
+  }
+  .btn3{
+    width: 160px;
+    height: 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    .cart:hover {
+    background:#0fa497;
+    color: white;
+    }
+  .btn3 button{
+padding-left: 200px;
+    width: 100%;
+    background-color: white;
+    border-color:#0fa497;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+    }
+    
+    .container input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+    }
+    
+    .container {
+      display: block;
+      position:absolute;
+      cursor: pointer;
+      font-size: 15px;
+      user-select: none;
+      transition: 100ms;
+      border-color: #313232;
+    }
+    
+    .checkmark {
+      top: 0;
+      left: 0;
+      height: 2em;
+      width: 2em;
+      transition: 100ms;
+      animation: dislike_effect 400ms ease;
+    }
+    
+    .container input:checked ~ .checkmark path {
+      fill: #FF5353;
+      stroke-width: 0;
+    }
+    
+    .container input:checked ~ .checkmark {
+      animation: like_effect 400ms ease;
+    }
+    
+    .container:hover {
+      transform: scale(1.1);
+    }
+    
+    @keyframes like_effect {
+      0% {
+        transform: scale(0);
+      }
+    
+      50% {
+        transform: scale(1.2);
+      }
+    
+      100% {
+        transform: scale(1);
+      }
+    }
+    
+    @keyframes dislike_effect {
+      0% {
+        transform: scale(0);
+      }
+    
+      50% {
+        transform: scale(1.2);
+      }
+    
+      100% {
+        transform: scale(1);
+      }
+    }
+.footer {
+ 
+  background-color: rgb(20 162 146);
+}
+
+.column1 {
+  float: left;
+  width: 20%;
+  padding: 0 0px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row1 {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column1 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card6 {
+ color: #faf8f8;
+  padding: 16px;
+  text-align: center;
+  background-color: #0fa497;
+}
+
+
+ 
+
+.nav-coni {
+  display: flex;
+  align-items: center;
+
+}
+.nav-coni i{
+  padding-left: 50px;
+gap: 30px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  transition: all .42s ease;
+}
+
+.nav i{
+margin-top: 10px;
+}

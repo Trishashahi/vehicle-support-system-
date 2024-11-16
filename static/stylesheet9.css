@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+  
+   
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 60px;
+    padding-left:40px;
+    gap: 50px;
+    background-color: rgb(20 162 146);
+}
+
+.navbar{
+    display: flex;
+    gap: 20px;
+}
+.navbar a{
+    color:344654;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    color: #615047;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    transition: all .42s ease;
+}
+.navbar a:hover{
+    color:rgb(147, 206, 196) ;
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.nav-icon i{
+    margin-right: 20px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    transition: all .42s ease;
+}
+.nav-icon i:hover{
+    color: #DCF2F0 ;
+    transform: scale(1.1);
+}
+  
+  
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+        background-color: rgb(20 162 146);;
+      float: none;
+      display: block;
+    }
+  }
+ 
+  * {
+    box-sizing: border-box;
+  }
+body {
+  font-family: sans-serif;
+  background-color: #f0f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.login-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 600px;
+  height: 400px;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  color: #0fbeaa;
+}
+
+.login-form input {
+  width: 70%;
+  padding: 6px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border: 1px solid #efeff0;
+  border-radius: 5px;
+  background-color: #efeff0;
+}
+
+.login-form button {
+  box-shadow: 0px 2px 3px 1px rgb(154 143 145);
+  background-color: #0fbeaa;
+  color: #fff;
+  padding: 6px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+margin-left: 140px;
+
+}
+
+.login-form p {
+  margin-top: 10px;
+ margin-left: 10px;
+ font-size: small;
+}
+
+.login-form h6{
+    margin-top: 10px;
+   margin-left: 10px;
+   color:#959596;
+  }
+.login-form a {
+  color: #00cc99;
+  text-decoration: underline;
+}
+
+.login-form a:hover {
+  text-decoration: underline;
+}
+
+.login-form .icon {
+  display: flex;
+  float: inline-end;
+  padding: 10px;
+}
+
+.login-form .icon i {
+  font-size: 3em;
+  color: #00cc99;
+}
+
+.footer {
+  background-color: #00cc99;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.footer p {
+  margin-bottom: 10px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer .social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.footer .social-links a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer .social-links a:hover {
+  text-decoration: underline;
+}
+.footer {
+ 
+    background-color: rgb(20 162 146);
+  }
+  
+  .column1 {
+    float: left;
+    width: 20%;
+    padding: 0 0px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row1 {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column1 {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card6 {
+   color: #faf8f8;
+    padding: 16px;
+    text-align: center;
+    background-color: #0fa497;
+  }
+  
+  
+   
+  
+  .nav-coni {
+    display: flex;
+    align-items: center;
+  
+  }
+  .nav-coni i{
+    padding-left: 50px;
+  gap: 30px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    transition: all .42s ease;
+  }
+  
+  .nav i{
+  margin-top: 10px;
+  }
+  

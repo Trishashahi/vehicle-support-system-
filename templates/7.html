@@ -1,0 +1,108 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="{% static 'stylesheet7.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="{% static 'logo.png' %}" alt="Logo"></a>
+        <div class="nav-icon">
+          <a href="{% url 'home' %}"><i class="fa fa-fw fa-home"></i>  </a>
+          <a href="{% url 'comments' %}"><i class='far fa-comment-alt'></i> </a>
+          <a href="{% url 'cart' %}"><i class="fas fa-shopping-cart"></i> </a>
+          <a href="{% url 'notifications' %}"><i class='far fa-bell'></i></a>
+          <a href="{% url 'profile' %}"><i class='fas fa-user-tie'></i> </a>
+        </div>
+    </header>
+
+
+<div class="row">
+    <div class="columnA">
+        <img src="{% static 'Rectangle 39.png' %}" alt="Snow" style="width:100%">
+
+        <span>RS.1,00,000|<a href="#"> Brand new</a></span><br>
+        <br>
+        <div class="author">
+            <img src="{% static 'Ellipse 2.png' %}" alt="Ashes Xrestha">
+            <span>Ashes Xrestha</span>
+        </div>
+        <div class="text">9860116645</div>
+        <br>
+
+        <div class="rowA">
+            <div class="column">
+                <label class="container">
+                    <input type="checkbox" checked="checked">
+                    <svg class="save-regular" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><path d="M0 48C0 21.5 21.5 0 48 0l0 48V441.4l130.1-92.9c8.3-6 19.6-6 27.9 0L336 441.4V48H48V0H336c26.5 0 48 21.5 48 48V488c0 9-5 17.2-13 21.3s-17.6 3.4-24.9-1.8L192 397.5 37.9 507.5c-7.3 5.2-16.9 5.9-24.9 1.8S0 497 0 488V48z"></path></svg>
+                    <svg class="save-solid" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><path d="M0 48V487.7C0 501.1 10.9 512 24.3 512c5 0 9.9-1.5 14-4.4L192 400 345.7 507.6c4.1 2.9 9 4.4 14 4.4c13.4 0 24.3-10.9 24.3-24.3V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48z"></path></svg>
+                </label>
+            </div>
+            <div class="column">
+                <label class="container">
+                    <input type="checkbox" checked="checked">
+                    <svg class="save-regular" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M64 0C28.7 0 0 28.7 0 64V352c0 35.3 28.7 64 64 64h96v80c0 6.1 3.4 11.6 8.8 14.3s11.9 2.1 16.8-1.5L309.3 416H448c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64z"/></svg>
+                    <svg class="save-solid" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M160 368c26.5 0 48 21.5 48 48v16l72.5-54.4c8.3-6.2 18.4-9.6 28.8-9.6H448c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64c-8.8 0-16 7.2-16 16V352c0 8.8 7.2 16 16 16h96zm48 124l-.2 .2-5.1 3.8-17.1 12.8c-4.8 3.6-11.3 4.2-16.8 1.5s-8.8-8.2-8.8-14.3V474.7v-6.4V468v-4V416H112 64c-35.3 0-64-28.7-64-64V64C0 28.7 28.7 0 64 0H448c35.3 0 64 28.7 64 64V352c0 35.3-28.7 64-64 64H309.3L208 492z"/></svg>
+                </label>
+            </div>
+
+            <span><a href="#"> Note:</a>We recommend you to physically inspect
+                the product/ Service before making payment.
+                Avoid paying fees or advance payment to sellers.
+                <a href="#"> Click here for more details</a></span>
+        </div>
+    </div>
+
+    <div class="column">
+
+        <h2>Yoshimura Rs4 Full System On Sale</h2><br>
+        <h4>Description</h4><br>
+
+
+        <h5>Yoshimura Rs4 full system on sale, only few pieces available in Nepal. The exhaust comes with two db killer one is genuine, another is according to my preference with honeycomb. It also comes with carbon heat shield as well. Comes with box, interested ones can viber me:- 9860116645</h5>
+        <div class="card">
+            <div class="card__title">General</div>
+            <div class="card__data">
+                <div class="card__right">
+                    <div class="item">AD ID</div>
+                    <div class="item">Location</div>
+                    <div class="item">Delivery</div>
+                    <div class="item">Negotiable</div>
+                    <div class="item">Ads Posted</div>
+                    <div class="item">Ads Expiry</div>
+                    <div class="item">Delivery Area</div>
+                    <div class="item">Used For  </div>
+                </div>
+                <div class="card__left">
+                    <div class="item">HB-858790</div>
+                    <div class="item">Bhaktapur, Bhaktapur Municipality</div>
+                    <div class="item">Available</div>
+                    <div class="item">Negotiable</div>
+                    <div class="item"> 2 days ago</div>
+                    <div class="item">2024-07-16</div>
+                    <div class="item">Within My City</div>
+                    <div class="item">1 month </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="btn3">
+            <a href="{% url 'checkout' %}"><button id="payment" class="cart">Place order</button></a>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+
+    <div class="row1">
+        <div class="column1">
